@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de synthèse — Kénan BOUDZIET KOUANGHA · BTS SIO SISR</title>
+  <meta name="description" content="Tableau de synthèse des compétences BTS SIO SISR de Kénan BOUDZIET KOUANGHA — Épreuve E5, Session 2026.">
+  <meta name="author" content="Kénan BOUDZIET KOUANGHA">
+  <meta name="robots" content="index, follow">
+  <title>Tableau de synthèse — Kénan BOUDZIET KOUANGHA</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .pdf-box {
+      display: flex; align-items: center; justify-content: space-between;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 24px 28px;
+      margin-bottom: 48px; gap: 20px; transition: border-color .2s;
+    }
+    .pdf-box:hover { border-color: rgba(249,115,22,.3); }
+    .pdf-icon {
+      width: 48px; height: 48px;
+      background: rgba(249,115,22,.1); border: 1px solid rgba(249,115,22,.25);
+      border-radius: var(--radius);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; flex-shrink: 0;
+    }
+    .pdf-name { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .pdf-meta { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+
+    .legend { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
+    .legend-item { display: flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+    .dot-yes     { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+    .dot-partial { width: 10px; height: 10px; border-radius: 50%; background: var(--accent2); flex-shrink: 0; }
+    .dot-no      { width: 10px; height: 10px; border-radius: 50%; background: var(--border); flex-shrink: 0; }
+
+    .bloc-section { margin-bottom: 40px; }
+    .bloc-header {
+      display: flex; align-items: center; gap: 14px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius) var(--radius) 0 0;
+      padding: 16px 20px;
+    }
+    .bloc-num {
+      font-family: var(--mono); font-size: 11px; font-weight: 600;
+      background: var(--accent-dim); border: 1px solid rgba(249,115,22,.22);
+      color: var(--accent); padding: 3px 10px; border-radius: 3px;
+    }
+    .bloc-title { font-size: 14px; font-weight: 700; color: var(--text); }
+
+    table.synth {
+      width: 100%; border-collapse: collapse; font-size: 13px;
+      border-left: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    table.synth thead tr { background: var(--surface2); }
+    table.synth th {
+      font-family: var(--mono); font-size: 10px; letter-spacing: .1em;
+      text-transform: uppercase; color: var(--accent);
+      padding: 12px 16px; text-align: left;
+      border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+    table.synth td {
+      padding: 13px 16px; border-bottom: 1px solid var(--border);
+      color: var(--muted); vertical-align: middle;
+    }
+    table.synth tr:last-child td { border-bottom: none; }
+    table.synth tr:hover td { background: rgba(249,115,22,.02); }
+    table.synth td:first-child { color: var(--text); }
+    table.synth .center { text-align: center; }
+
+    @media (max-width: 640px) {
+      .pdf-box { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand"><div class="dot"></div>portfolio.sisr</a>
+  <ul class="nav-links">
+    <li><a href="index.html"><span class="icon">⌂</span><span>Accueil</span></a></li>
+    <li><a href="realisations.html"><span class="icon">⚙</span><span>Réalisations</span></a></li>
+    <li><a href="veille.html"><span class="icon">◎</span><span>Veille</span></a></li>
+    <li><a href="synthese.html" class="active"><span class="icon">≡</span><span>Synthèse</span></a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <div class="page-label">Tableau de synthèse</div>
+  <h1 class="page-title">Compétences <em>mobilisées</em></h1>
+
+  <p style="color:var(--muted);font-size:13px;max-width:640px;margin-bottom:40px;">
+    Ce tableau récapitule les compétences du référentiel BTS SIO SISR mobilisées dans chacune de mes
+    réalisations professionnelles, conformément au format attendu pour l'épreuve E5.
+  </p>
+
+  <!-- PDF -->
+  <div class="section-head" style="margin-bottom:16px;">Document officiel</div>
+  <div class="pdf-box fade">
+    <div style="display:flex;align-items:center;gap:18px;">
+      <div class="pdf-icon">📄</div>
+      <div>
+        <div class="pdf-name">Tableau de synthèse — format officiel BTS SIO</div>
+        <div class="pdf-meta">BOUDZIET-Kénan · BTS SIO 2026 · Épreuve E5</div>
+      </div>
+    </div>
+    <a href="assets/tableau_synthese.pdf" target="_blank" class="btn btn-primary">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7,10 12,15 17,10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      Télécharger le PDF
+    </a>
+  </div>
+
+  <!-- LÉGENDE -->
+  <div class="legend" style="margin-bottom:40px;">
+    <div class="legend-item"><span class="dot-yes"></span> Compétence pleinement mobilisée</div>
+    <div class="legend-item"><span class="dot-partial"></span> Partiellement mobilisée</div>
+    <div class="legend-item"><span class="dot-no"></span> Non mobilisée dans cette réalisation</div>
+  </div>
+
+  <!-- ══ BLOC 1 ══ -->
+  <div class="bloc-section fade">
+    <div class="bloc-header">
+      <span class="bloc-num">BLOC 1</span>
+      <span class="bloc-title">Support et mise à disposition de services informatiques</span>
+    </div>
+    <table class="synth">
+      <thead>
+        <tr>
+          <th style="width:60%">Compétence</th>
+          <th>Réalisation 1 <small style="font-weight:400;color:var(--muted)">(Stage)</small></th>
+          <th>Réalisation 2 <small style="font-weight:400;color:var(--muted)">(TP/TD)</small></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>B1.1 — Gérer le patrimoine informatique</td>
+          <td class="center"><span class="dot-yes"></span></td>
+          <td class="center"><span class="dot-no"></span></td>
+        </tr>
+        <tr>
+          <td>B1.2 — Répondre aux incidents et aux demandes d'assistance</td>
+          <td class="center"><span class="dot-yes"></span></td>
+          <td class="center"><span class="dot-no"></span></td>
+        </tr>
+        <tr>
+          <td>B1.3 — Développer la présence en ligne de l'organisation</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-partial"></span></td>
+        </tr>
+        <tr>
+          <td>B1.4 — Travailler en mode projet</td>
+          <td class="center"><span class="dot-yes"></span></td>
+          <td class="center"><span class="dot-yes"></span></td>
+        </tr>
+        <tr>
+          <td>B1.5 — Mettre à disposition des utilisateurs un service informatique</td>
+          <td class="center"><span class="dot-yes"></span></td>
+          <td class="center"><span class="dot-yes"></span></td>
+        </tr>
+        <tr>
+          <td>B1.6 — Organiser son développement professionnel</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-yes"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ══ BLOC 2 ══ -->
+  <div class="bloc-section fade" style="animation-delay:.1s">
+    <div class="bloc-header">
+      <span class="bloc-num">BLOC 2</span>
+      <span class="bloc-title">Administration des systèmes et des réseaux (SISR)</span>
+    </div>
+    <table class="synth">
+      <thead>
+        <tr>
+          <th style="width:60%">Compétence</th>
+          <th>Réalisation 1 <small style="font-weight:400;color:var(--muted)">(Stage)</small></th>
+          <th>Réalisation 2 <small style="font-weight:400;color:var(--muted)">(TP/TD)</small></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>B2.1 — Concevoir une solution d'infrastructure réseau</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-yes"></span></td>
+        </tr>
+        <tr>
+          <td>B2.2 — Installer, tester et déployer une solution d'infrastructure réseau</td>
+          <td class="center"><span class="dot-yes"></span></td>
+          <td class="center"><span class="dot-yes"></span></td>
+        </tr>
+        <tr>
+          <td>B2.3 — Exploiter, dépanner et superviser une infrastructure réseau</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-yes"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ══ BLOC 3 ══ -->
+  <div class="bloc-section fade" style="animation-delay:.2s">
+    <div class="bloc-header">
+      <span class="bloc-num">BLOC 3</span>
+      <span class="bloc-title">Cybersécurité des services informatiques</span>
+    </div>
+    <table class="synth">
+      <thead>
+        <tr>
+          <th style="width:60%">Compétence</th>
+          <th>Réalisation 1 <small style="font-weight:400;color:var(--muted)">(Stage)</small></th>
+          <th>Réalisation 2 <small style="font-weight:400;color:var(--muted)">(TP/TD)</small></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>B3.1 — Protéger les données à caractère personnel</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-no"></span></td>
+        </tr>
+        <tr>
+          <td>B3.2 — Préserver l'identité numérique de l'organisation</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-no"></span></td>
+        </tr>
+        <tr>
+          <td>B3.3 — Sécuriser les équipements et les usages des utilisateurs</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-no"></span></td>
+        </tr>
+        <tr>
+          <td>B3.4 — Garantir la disponibilité, l'intégrité et la confidentialité des données</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-no"></span></td>
+        </tr>
+        <tr>
+          <td>B3.5 — Assurer la cybersécurité d'une infrastructure réseau, d'un système ou d'un service</td>
+          <td class="center"><span class="dot-no"></span></td>
+          <td class="center"><span class="dot-no"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</main>
+
+<footer>
+  Portfolio E5 · <a href="index.html">Kénan BOUDZIET KOUANGHA</a> · BTS SIO SISR · Session 2026
+</footer>
+
+</body>
+</html>

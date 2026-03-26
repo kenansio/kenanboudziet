@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veille technologique — Kénan BOUDZIET KOUANGHA · BTS SIO SISR</title>
+  <meta name="description" content="Veille technologique de Kénan BOUDZIET KOUANGHA — BTS SIO SISR 2026. Suivi des actualités cybersécurité, infrastructure réseau et systèmes.">
+  <meta name="author" content="Kénan BOUDZIET KOUANGHA">
+  <meta name="robots" content="index, follow">
+  <title>Veille technologique — Portfolio BTS SIO SISR</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .veille-intro {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent2);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 20px 24px;
+      font-size: 13px; color: var(--muted);
+      margin-bottom: 48px;
+    }
+    .veille-intro strong { color: var(--text); }
+
+    /* ── OUTILS ── */
+    .outils-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px; margin-bottom: 48px;
+    }
+    .outil-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 18px 20px;
+      transition: border-color .2s;
+    }
+    .outil-card:hover { border-color: rgba(91,143,255,.4); }
+    .outil-card .outil-icon { font-size: 22px; margin-bottom: 10px; }
+    .outil-card .outil-name { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .outil-card .outil-desc { font-size: 12px; color: var(--muted); }
+
+    /* ── ARTICLES ── */
+    .article-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 22px 26px;
+      margin-bottom: 16px; transition: border-color .2s, transform .2s;
+      display: flex; gap: 20px; align-items: flex-start;
+    }
+    .article-card:hover { border-color: rgba(79,255,176,.3); transform: translateX(4px); }
+
+    .article-num {
+      font-family: var(--mono); font-size: 22px; font-weight: 700;
+      color: rgba(79,255,176,.15); flex-shrink: 0; min-width: 36px;
+    }
+    .article-content { flex: 1; }
+    .article-date {
+      font-family: var(--mono); font-size: 10px;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .article-title {
+      font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 6px;
+    }
+    .article-source {
+      font-family: var(--mono); font-size: 10px;
+      color: var(--accent2); margin-bottom: 10px;
+    }
+    .article-summary { font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+    .article-analyse {
+      background: var(--surface2); border-left: 2px solid var(--accent);
+      padding: 10px 14px; font-size: 12px; color: var(--muted);
+      border-radius: 0 4px 4px 0;
+    }
+    .article-analyse strong { color: var(--text); }
+    .article-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 10px; font-family: var(--mono); font-size: 10px;
+      color: var(--accent); text-decoration: none;
+      transition: opacity .2s;
+    }
+    .article-link:hover { opacity: .7; }
+
+    /* ── BILAN ── */
+    .bilan-veille {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 28px 32px;
+      margin-top: 48px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand"><div class="dot"></div>portfolio.sisr</a>
+  <ul class="nav-links">
+    <li><a href="index.html"><span class="icon">⌂</span><span>Accueil</span></a></li>
+    <li><a href="realisations.html"><span class="icon">⚙</span><span>Réalisations</span></a></li>
+    <li><a href="veille.html" class="active"><span class="icon">◎</span><span>Veille</span></a></li>
+    <li><a href="synthese.html"><span class="icon">≡</span><span>Synthèse</span></a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <div class="page-label">Veille technologique</div>
+  <h1 class="page-title">Ma <em>veille</em></h1>
+
+  <div class="veille-intro">
+    La veille technologique consiste à surveiller de façon régulière les <strong>évolutions du domaine informatique</strong>
+    afin d'anticiper les changements et de maintenir ses compétences à jour.
+    En tant qu'étudiant en SISR, j'ai orienté ma veille sur <strong>[ton thème — ex : la cybersécurité des infrastructures réseau / la virtualisation / le cloud]</strong>.
+  </div>
+
+  <!-- ── OUTILS DE VEILLE ── -->
+  <div class="section-head" style="margin-bottom:20px;">Outils et sources utilisés</div>
+
+  <div class="outils-grid">
+    <!-- ✏ Remplace par tes vrais outils -->
+    <div class="outil-card">
+      <div class="outil-icon">📰</div>
+      <div class="outil-name">[Ex : Feedly]</div>
+      <div class="outil-desc">Agrégateur RSS pour suivre plusieurs sources simultanément.</div>
+    </div>
+    <div class="outil-card">
+      <div class="outil-icon">🐦</div>
+      <div class="outil-name">[Ex : Twitter/X]</div>
+      <div class="outil-desc">Suivi de comptes spécialisés en cybersécurité et réseau.</div>
+    </div>
+    <div class="outil-card">
+      <div class="outil-icon">📡</div>
+      <div class="outil-name">[Ex : CERT-FR]</div>
+      <div class="outil-desc">Alertes et bulletins officiels de l'agence nationale de sécurité.</div>
+    </div>
+    <div class="outil-card">
+      <div class="outil-icon">💬</div>
+      <div class="outil-name">[Ex : Reddit / forums]</div>
+      <div class="outil-desc">r/netsec, r/sysadmin — discussions de la communauté IT.</div>
+    </div>
+    <div class="outil-card">
+      <div class="outil-icon">📖</div>
+      <div class="outil-name">[Ex : Le Monde Informatique]</div>
+      <div class="outil-desc">Actualités et analyses du secteur en français.</div>
+    </div>
+    <div class="outil-card">
+      <div class="outil-icon">🎧</div>
+      <div class="outil-name">[Ex : Podcast / YouTube]</div>
+      <div class="outil-desc">[Nom du podcast ou chaîne suivie — ex : NoLimitSecu]</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── ARTICLES / SUJETS SUIVIS ── -->
+  <div class="section-head" style="margin-bottom:24px;">Articles et sujets analysés</div>
+
+  <!-- ARTICLE 1 -->
+  <div class="article-card fade">
+    <div class="article-num">01</div>
+    <div class="article-content">
+      <div class="article-date">📅 [Mois AAAA]</div>
+      <!-- ✏ Titre de l'article ou du sujet -->
+      <div class="article-title">[Ex : La faille critique CVE-2024-XXXX dans OpenSSH — plus de 14 millions de serveurs exposés]</div>
+      <div class="article-source">Source : [ex : Bleeping Computer / CERT-FR / LeMagIT]</div>
+      <div class="article-summary">
+        [Résume l'article en 2-3 phrases — ex : Une vulnérabilité de type RCE (Remote Code Execution)
+        a été découverte dans le daemon OpenSSH. Elle permet à un attaquant non authentifié d'exécuter
+        du code arbitraire sur le serveur. Un patch a été publié dans la version 9.x.]
+      </div>
+      <div class="article-analyse">
+        <strong>Mon analyse :</strong> [ex : Cette faille m'a permis de comprendre l'importance des mises à jour
+        régulières des services exposés sur Internet. En SISR, cela illustre directement les bonnes pratiques
+        de supervision et de patch management abordées dans le Bloc 2.3.]
+      </div>
+      <!-- ✏ Lien vers l'article original -->
+      <a href="https://LIEN-VERS-LARTICLE.com" target="_blank" class="article-link">
+        Lire l'article ↗
+      </a>
+    </div>
+  </div>
+
+  <!-- ARTICLE 2 -->
+  <div class="article-card fade" style="animation-delay:.1s">
+    <div class="article-num">02</div>
+    <div class="article-content">
+      <div class="article-date">📅 [Mois AAAA]</div>
+      <div class="article-title">[Ex : Proxmox VE 8.2 — nouvelles fonctionnalités pour la virtualisation d'infrastructure]</div>
+      <div class="article-source">Source : [ex : Proxmox Blog / IT-Connect]</div>
+      <div class="article-summary">
+        [Résumé — ex : La version 8.2 de Proxmox VE introduit une meilleure gestion des snapshots,
+        la prise en charge améliorée des clusters HA, et un nouveau tableau de bord de supervision intégré.]
+      </div>
+      <div class="article-analyse">
+        <strong>Mon analyse :</strong> [ex : Nous utilisons Proxmox en TP pour nos environnements virtuels.
+        Suivre ses évolutions me permet de rester à jour sur les fonctionnalités disponibles et d'anticiper
+        les améliorations que l'on pourrait appliquer dans nos maquettes réseau.]
+      </div>
+      <a href="https://LIEN-VERS-LARTICLE.com" target="_blank" class="article-link">
+        Lire l'article ↗
+      </a>
+    </div>
+  </div>
+
+  <!-- ARTICLE 3 -->
+  <div class="article-card fade" style="animation-delay:.2s">
+    <div class="article-num">03</div>
+    <div class="article-content">
+      <div class="article-date">📅 [Mois AAAA]</div>
+      <div class="article-title">[Ex : Zero Trust Network Access — vers une remise en question du périmètre réseau traditionnel]</div>
+      <div class="article-source">Source : [ex : ANSSI / ZDNet]</div>
+      <div class="article-summary">
+        [Résumé — ex : Le modèle Zero Trust repose sur le principe "ne jamais faire confiance, toujours
+        vérifier". Il remplace le modèle de sécurité périmétrique en imposant une authentification forte
+        pour chaque accès, même interne.]
+      </div>
+      <div class="article-analyse">
+        <strong>Mon analyse :</strong> [ex : Ce sujet m'a amené à comprendre les limites des architectures
+        réseau classiques avec DMZ, et à m'intéresser aux solutions modernes comme les VPN zero-trust
+        (Tailscale, Cloudflare Access). Lien direct avec mes réalisations en segmentation réseau.]
+      </div>
+      <a href="https://LIEN-VERS-LARTICLE.com" target="_blank" class="article-link">
+        Lire l'article ↗
+      </a>
+    </div>
+  </div>
+
+  <!-- ✏ Ajoute d'autres articles en copiant le bloc ci-dessus -->
+
+  <!-- ── BILAN DE VEILLE ── -->
+  <div class="bilan-veille fade" style="animation-delay:.3s">
+    <div class="section-head" style="margin-bottom:16px;">Bilan de ma démarche de veille</div>
+    <div class="bilan">
+      <strong>Intérêt pour ma formation :</strong>
+      [ex : Cette veille m'a permis de relier les concepts vus en cours (segmentation réseau,
+      supervision, patch management) à des situations réelles rencontrées en entreprise.
+      Elle a enrichi ma compréhension des enjeux actuels du métier d'administrateur systèmes et réseaux.]
+      <br><br>
+      <strong>Compétences développées :</strong>
+      [ex : Capacité à identifier les sources fiables, à synthétiser de l'information technique complexe,
+      à évaluer l'impact d'une actualité sur mon futur métier.]
+      <br><br>
+      <strong>Perspectives :</strong>
+      [ex : Je compte poursuivre cette veille après le BTS, notamment en me préparant à la certification
+      [CompTIA Security+ / CCNA / autre] pour renforcer mes compétences en cybersécurité.]
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  Portfolio E5 · <a href="index.html">Prénom NOM</a> · BTS SIO SISR · Session 2026
+</footer>
+
+</body>
+</html>

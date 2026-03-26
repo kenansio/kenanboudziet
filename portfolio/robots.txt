@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kenansio.github.io/kenanboudziet/sitemap.xml
